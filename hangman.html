@@ -1,0 +1,35 @@
+<!doctype HTML>
+<html lang="pl">
+<head>
+	<title>hangman</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script type="text/javascript" src="scripts/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="scripts/actions.js"></script>
+	<script type="text/javascript" src="scripts/hangmanLogic.js"></script>
+</head>
+<body>
+	<header>
+		<h1>HangmanJS</h1>
+	</header>
+	<div id="wrapper">
+		<div id="answer">
+			<span id="grid"></span>
+		</div>
+		<div id="control">
+			<div id="menu">
+				<button class="new_game" name="new_game">New Game</button>
+			</div>
+			<div id="letters">
+				<ul></ul>
+			</div>
+		</div>
+		<div id="picture">
+			<img width="500" class="main_picture">
+		</div>
+	</div>
+	<footer>
+		<p>Copyright @ Patryk Karolak 2014</p>
+	</footer>
+</body>
+</html>
